@@ -1,0 +1,582 @@
+@media (max-width: 2561px) {
+  .modal-content .content-left img {
+    margin: 40px auto;
+  }
+  form h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+  .modal-content .content-left .Form {
+    padding: 0 50px;
+  }
+  .form-control input::placeholder {
+    font-size: 160%;
+  }
+  .form-control input {
+    margin-top: 15px;
+  }
+
+  .form-control label i {
+    font-size: 260%;
+  }
+
+  .form-control span::before {
+    margin-top: 15px;
+  }
+  .social-media i {
+    font-size: 40px;
+  }
+
+  .signup_link {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 2093px) {
+  form {
+    padding: 0 25px;
+  }
+  .form-control input::placeholder {
+    font-size: 140%;
+  }
+  .form-control label i {
+    font-size: 33px;
+    margin-top: 13px;
+  }
+  .social-media i {
+    font-size: 35px;
+    margin-top: 5px;
+  }
+  input[type="submit"] {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 1667px) {
+  form {
+    padding: 0 10px;
+  }
+  .modal-content .content-left img {
+    margin: 0 auto;
+    width: 40%;
+    height: 17%;
+  }
+  form h1 {
+    font-size: 2rem;
+  }
+  .form-control input::placeholder {
+    font-size: 100%;
+  }
+  form .form-control {
+    margin-top: -10px;
+  }
+
+  .form-control label i {
+    font-size: 180%;
+    margin-top: 18px;
+  }
+  .social-media i {
+    font-size: 28px;
+  }
+  .signup_link {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1440px) {
+  form {
+    padding: 0 30px;
+  }
+  input[type="submit"] {
+    height: 40px;
+  }
+
+  .modal-content .content-left img {
+    margin: 0 auto;
+    width: 40%;
+    height: 17%;
+  }
+  form h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-control input::placeholder {
+    font-size: 100%;
+  }
+  form .form-control {
+    margin-top: -21px;
+  }
+
+  .form-control label i {
+    font-size: 170%;
+    margin-top: 18px;
+  }
+  .form-control span::before {
+    margin-top: 15px;
+  }
+  .social-media i {
+    font-size: 24px;
+  }
+  .signup_link {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1026px) {
+  .card_bx .cards_bx1 .card {
+    margin: auto;
+    width: 30%;
+    margin-left: 10px;
+  }
+  .card_bx .cards_bx1 {
+    width: 80%;
+  }
+  .card_bx .cards_bx1 .card_b {
+    width: 47%;
+  }
+  .social .social2 .social_video_box {
+    margin-left: 30px;
+    width: 400px;
+    /* border: 1px solid black; */
+  }
+  .social .social2 .social_box .facebook {
+    position: relative;
+  }
+
+  footer::before {
+    width: 190px;
+  }
+  .app_box .app_box1 .app_content {
+    margin-left: 30px;
+  }
+  .app_box .app_box1 .app_content h1 {
+    font-size: 20px;
+  }
+  .app_box .app_box1 .app_content .app_imgs img {
+    width: 115px;
+  }
+
+  form {
+    padding: 0 10px;
+  }
+  input[type="submit"] {
+    height: 30px;
+  }
+
+  .modal-content .content-left img {
+    margin: 0 auto;
+    width: 48%;
+    height: 17%;
+  }
+
+  form h1 {
+    font-size: 1.7rem;
+  }
+
+  .form-control input::placeholder {
+    font-size: 100%;
+  }
+  form .form-control {
+    margin-top: -20px;
+  }
+  input[type="submit"] {
+    height: 40px;
+  }
+  .form-control label i {
+    font-size: 160%;
+  }
+
+  .signup_link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .modal-content .content-left {
+    width: 100%;
+  }
+  .modal-content .content-right {
+    width: 0%;
+    display: none;
+  }
+  form {
+    padding: 0 70px;
+  }
+  .modal-content .content-left img {
+    width: 50%;
+    height: 20%;
+  }
+  .close {
+    position: relative;
+    left: 95%;
+  }
+}
+
+@media (min-width: 1560px) {
+  .social .social2 .social_video_box h1 {
+    left: 0;
+  }
+}
+@media (min-width: 1130px) {
+  .social .social2 .social_video_box h1 {
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 1479px) {
+  header nav {
+    width: 80%;
+  }
+  header section {
+    width: 80%;
+  }
+  .menu {
+    width: 80%;
+  }
+  .card_bx .card_bx1 {
+    width: 80%;
+  }
+  a .card_bx .cards_bx1 .card {
+    width: 28%;
+  }
+  .card_bx .cards_bx1 .card_b {
+    width: 45%;
+  }
+  .social {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .social .social2 .social_box .twitter {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .social .social2 .social_box .facebook {
+    height: 100%;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .social .social2 .social_box .insta_boxs {
+    height: 170px;
+  }
+  .social .social2 .social_box .facebook:nth-child(1) {
+    width: 100%;
+    height: 170px;
+  }
+
+  /* .social .social2 .social_box .facebook .img_box_insta {
+    width: 120px;
+    height: 120px;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .social .social2 .social_box .facebook .chicken_box {
+    margin-left: 180px;
+    margin-bottom: 20px;
+  } */
+}
+@media (max-width: 1129px) {
+  .app_box .app_box1 .app_content h1 {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .app_box .app_box1 .app_content .app_imgs img {
+    width: 120px;
+  }
+  .app_box .app_box1 .app_content .app_imgs {
+    margin-left: 50px;
+  }
+
+  .social .social2 .social_video_box {
+    margin-left: 40px;
+    width: 400px;
+    /* border: 1px solid black; */
+  }
+}
+.social .social2 .social_video_box h1 {
+  left: 2%;
+}
+.social .social2 .social_video_box .video {
+  left: 8%;
+}
+footer::before {
+  width: 240px;
+}
+.card_bx .cards_bx1 .card {
+  width: 30%;
+}
+.card_bx .cards_bx1 .card_b {
+  width: 45%;
+}
+
+@media (max-width: 1071px) {
+  .card_bx .cards_bx1 .card {
+    width: 29%;
+  }
+  .card_bx .cards_bx1 {
+    width: 85%;
+  }
+  .card_bx .cards_bx1 .card_b {
+    width: 45%;
+  }
+  .social .social2 .social_video_box {
+    margin-left: 40px;
+    width: 400px;
+    /* border: 1px solid black; */
+  }
+  footer::before {
+    width: 240px;
+  }
+  .menu .right_arrow {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 825px) {
+  .app_box .app_box1 .app_content h1 {
+    font-size: 17px;
+  }
+
+  .app_box .app_box1 .app_content .app_imgs img {
+    width: 100px;
+  }
+  address .add .kfc_add,
+  .kfc_icon {
+    width: 70%;
+  }
+  address .add .kfc_icon {
+    width: 30%;
+  }
+
+  .social .social2 .social_video_box .video {
+    height: 210px;
+  }
+  .social .social2 .social_video_box h1 {
+    right: 200px;
+  }
+  .social .social2 .social_video_box .video {
+    left: 0;
+  }
+  .card_bx .cards_bx1 .card {
+    width: 49%;
+    margin: 5px 0px;
+  }
+  .card_bx .cards_bx1 .card:nth-child(5) {
+    width: 100%;
+  }
+  .card_bx {
+    height: auto;
+    padding: 30px 0px;
+  }
+  .app_box .app_box1 .app_img img {
+    height: 115%;
+    width: 140%;
+  }
+
+  /* .app_box .app_box1 .app_img,
+.app_content {
+  width: 45%;
+} */
+
+  footer .links {
+    width: 65%;
+    height: 75%;
+    /* border: 1px solid #fff; */
+    /* margin: auto; */
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  footer::before {
+    width: 170px;
+  }
+}
+@media (max-width: 620px) {
+  header {
+    height: 100vh;
+  }
+  header section {
+    flex-wrap: wrap-reverse;
+  }
+  header section .left_content_side,
+  .right_food_side {
+    width: 100%;
+    height: 50%;
+  }
+  header section .left_content_side {
+    margin-left: 10%;
+  }
+  header section .left_content_side h1 {
+    margin-top: 0px;
+  }
+  /* header section .right_food_side img {
+      width: 82%;
+      margin-top: 50px;
+      margin-right: 80px;
+    } */
+  header section .right_food_side img {
+    width: 50%;
+  }
+
+  header nav ul {
+    position: absolute;
+    right: 10%;
+    top: 70px;
+    right: -150%;
+    z-index: 9999999999999;
+  }
+  header nav ul li {
+    display: flex;
+  }
+  header nav ul li a {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  header nav .user li:nth-child(2) {
+    display: none;
+  }
+
+  /* ẩn hiện menu */
+  header .menu_icon {
+    display: flex;
+  }
+  header .menu_icon .bi:nth-child(2) {
+    display: none;
+  }
+  /* java classes start Hiện menu khi nhắn menuicon */
+  .menu_ul_list_java {
+    right: 10%;
+    transition: all 0.1s ease-in-out;
+  }
+  header .humburger .bi:nth-child(1) {
+    display: none;
+  }
+  header .humburger .bi:nth-child(2) {
+    display: flex;
+  }
+  .card_bx .cards_bx1 {
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+  .card_bx .cards_bx1 .card {
+    width: 80%;
+  }
+  .card_bx .cards_bx1 .card:nth-child(5) {
+    width: 80%;
+  }
+
+  address .add {
+    width: 90%;
+  }
+  address .add .kfc_icon {
+    width: 35%;
+  }
+  footer .foot1 {
+    width: 80%;
+    margin-left: 40px;
+    font-size: 11px;
+    padding-bottom: 5px;
+  }
+  footer .links {
+    width: 85%;
+
+    /* border: 1px solid #fff; */
+    /* margin: auto; */
+  }
+  footer::before {
+    width: 0px;
+  }
+  footer .links .card_foot {
+    width: 160px;
+
+    /* border: 1px solid #fff; */
+  }
+  footer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #1f2329;
+    padding-bottom: 7px;
+  }
+  .app_box {
+    /* border: 1px solid black; */
+
+    height: auto;
+  }
+  .app_box .app_box1 {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .app_box .app_box1 .app_img,
+  .app_content {
+    width: 80%;
+    height: 50%;
+    /* border: 1px solid black; */
+  }
+  .app_box .app_box1 .app_content h1 {
+    font-size: 23px;
+  }
+  .app_box .app_box1 .app_content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  .social .social2 {
+    flex-wrap: wrap;
+  }
+  .social .social2 .social_box,
+  .social_video_box {
+    width: 100%;
+  }
+  .social .social2 .social_video_box .video {
+    height: 240px;
+  }
+  form {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 420px) {
+  .card_bx .card_bx1 .card {
+    width: 100%;
+  }
+  .card_bx .card_bx1 .card:nth-child(5) {
+    width: 100%;
+  }
+  .app_box::before {
+    transform: skew(0deg);
+  }
+
+  address .add .kfc_add .phone {
+    font-size: 11px;
+  }
+  .address .add .kfc_add .phone .img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social .social2 .social_video_box .video {
+    height: 240px;
+  }
+  form {
+    padding: 0 0%;
+  }
+  form h1 {
+    font-size: 1.4rem;
+  }
+
+  .modal-content .content-left img {
+    width: 50%;
+    height: 17%;
+  }
+
+  .close {
+    position: relative;
+    left: 90%;
+  }
+  .form-control input {
+    font-size: 100%;
+  }
+  .form-control label i {
+    font-size: 150%;
+    margin-top: 70%;
+  }
+}

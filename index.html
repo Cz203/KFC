@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KFC</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/media.css" />
+    <!-- boxicons menu -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="./loginReg.css" /> -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu_icon" id="menu_icon">
+          <i class="bi bi-list"></i>
+          <i class="bi bi-justify-left"></i>
+        </div>
+        <img
+          src="./img/kfc-logo-mobile1.jpg.png"
+          alt=""
+          class="logo"
+          loading="lazy"
+        />
+        <div class="ul_user">
+          <ul id="nav_ul_list">
+            <li>
+              <a href="">ABOUT US</a>
+            </li>
+            <li>
+              <a href="">FIND US</a>
+            </li>
+            <li>
+              <a href="">ALL CAMPAIGNS</a>
+            </li>
+          </ul>
+          <div class="user">
+            <li>
+              <!-- bootstrap Sign & Login -->
+              <a href="">
+                <img src="./icon/user.png" alt="user" id="openModalBtn" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./icon/basket.png" alt="cart" />
+                <h6 class="cart_count">2</h6>
+              </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <!-- section start -->
+      <section>
+        <div class="left_content_side">
+          <h1 id="sec_title">
+            BARGAIN <br />
+            BUCKET MENU <br />
+            CAMPAIGN
+          </h1>
+          <p>
+            Original Recipe chicken and fries, and plenty of it. <br />
+            Sometimes that's all you need to turn an average <br />
+            day into a great one.
+          </p>
+          <button>Order Now</button>
+          <div class="dots">
+            <h6></h6>
+            <h6></h6>
+            <h6></h6>
+            <h6></h6>
+            <h6></h6>
+          </div>
+        </div>
+        <div class="right_food_side">
+          <img src="./img/kfc_main1.png" id="campaign_img" alt="" />
+        </div>
+      </section>
+      <div class="circle1"></div>
+      <div class="ring1"></div>
+      <div class="ring2"></div>
+      <div class="red_box"></div>
+      <div class="ring3"></div>
+    </header>
+
+    <!----------------------- the end header -------------------------->
+
+    <!----------------------- menu start -------------------------->
+
+    <div class="menu">
+      <div class="menu_sec" id="menu_sec">
+        <div class="card">
+          <img src="./img/menu1.png" alt="Food" loading="lazy" />
+          <h5>KIDS MENU</h5>
+        </div>
+
+        <div class="card">
+          <img src="./img/menu2.png" alt="Food" loading="lazy" />
+          <h5>SINGLE PRODUCTS</h5>
+        </div>
+
+        <div class="card" onclick="animateCard(this)">
+          <img src="./img/menu3.png" alt="Food" loading="lazy" />
+          <h5>BOX-MEALS</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu4.png" alt="Food" loading="lazy" />
+          <h5>BUCKET</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu5.png" alt="Food" loading="lazy" />
+          <h5>CHICKEN</h5>
+        </div>
+
+        <div class="card">
+          <img src="./img/menu6.png" alt="Food" loading="lazy" />
+          <h5>SAUCE</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu7.png" alt="Food" loading="lazy" />
+          <h5>DRINKS</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu8.png" alt="Food" loading="lazy" />
+          <h5>SIDES</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu9.png" alt="Food" loading="lazy" />
+          <h5>SIDE</h5>
+        </div>
+
+        <div class="card">
+          <img src="./img/menu1.png" alt="Food" loading="lazy" />
+          <h5>SIDE</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu5.png" alt="Food" loading="lazy" />
+          <h5>SIDE</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu4.png" alt="Food" loading="lazy" />
+          <h5>SIDE</h5>
+        </div>
+        <div class="card">
+          <img src="./img/menu3.png" alt="Food" loading="lazy" />
+          <h5>SIDE</h5>
+        </div>
+
+        <h5 class="border"></h5>
+      </div>
+
+      <img
+        src="./icon/arrow.png"
+        class="left_arrow"
+        id="left_arrow"
+        alt="arrow"
+      />
+
+      <img
+        src="./icon/arrow.png"
+        class="right_arrow"
+        id="right_arrow"
+        alt="arrow"
+      />
+      <h4 class="animationH4">MENU</h4>
+    </div>
+    <!-- 
+    ----------------------- the end menu ----------------------- -->
+
+    <!-- 
+    ----------------------- the start cards ----------------------- -->
+    <div class="card_bx">
+      <div class="cards_bx1">
+        <div class="card card1 animationCard">
+          <div class="content">
+            <h2>
+              ANY DAY <br />
+              OFFER
+            </h2>
+            <p>
+              NEW PHENOMENON <br />
+              BURGER TASTE
+            </p>
+            <h4>12.90 TL</h4>
+            <div class="dots">
+              <h2></h2>
+              <h2></h2>
+              <h2></h2>
+              <h2></h2>
+            </div>
+          </div>
+
+          <img src="./img/card1.png" alt="" loading="lazy" />
+        </div>
+        <div class="card card2 animationCard">
+          <div class="content">
+            <h2>
+              OTHER <br />
+              FLAVORS
+            </h2>
+            <p>
+              SAVE ROOM. <br />
+              WE MADE COOKES
+            </p>
+            <h4>3.90 TL</h4>
+            <div class="dots">
+              <h2></h2>
+              <h2></h2>
+              <h2></h2>
+            </div>
+          </div>
+          <img src="./img/card2.png" alt="" loading="lazy" />
+        </div>
+        <div class="card card3 animationCard">
+          <img src="./img/card3.png" alt="" loading="lazy" />
+          <div class="content">
+            <h2>
+              FIND AKFC <br />
+              STORE <br />
+              NEAR YOU
+            </h2>
+            <div class="dots">
+              <h2></h2>
+              <h2></h2>
+              <h2></h2>
+            </div>
+          </div>
+        </div>
+        <div class="card card4 card_b animationCard">
+          <div class="content">
+            <h2>
+              CRISPY AND <br />FRESH CHICKEN<br />
+              MASTER CHEF <br />
+            </h2>
+            <a href="#">100% REAL CHICKEN</a>
+          </div>
+          <img src="./img/card4.png" alt="" loading="lazy" />
+        </div>
+        <div class="card card5 card_b animationCard">
+          <div class="content">
+            <h2>DO YOU WANT <br />TO BE AHOPE</h2>
+            <a href="#">SEE MORE</a>
+          </div>
+          <img src="./img/card5.png" alt="" loading="lazy" />
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------- the end cards -------------- -->
+
+    <!-- ----------------------- the start app bõx -------------- -->
+    <div class="app_box">
+      <div class="app_box1">
+        <div class="app_img">
+          <img src="./img/app.png" alt="App" loading="lazy" />
+        </div>
+        <div class="app_content">
+          <h1>
+            Now With Your Fabortite <br />
+            KFC Mobile Application <br />
+            In Your Pocket
+          </h1>
+          <div class="app_imgs">
+            <img
+              src="./img/apple.png"
+              alt="ios"
+              loading="lazy"
+              class="animationAppstore"
+            />
+            <img
+              src="./img/anidroid.png"
+              class="animationGoogleplay"
+              alt="android"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- the end app_box -------------- -->
+
+    <!-- ----------------------- the start social box start -------------- -->
+    <div class="social">
+      <div class="social2">
+        <div class="social_box">
+          <h1 class="text-social">SOCIAL</h1>
+          <div class="twitter">
+            <img src="./icon/twitter.png" alt="" />
+            <h3>FrancoEjder</h3>
+            <p>
+              <span>@lovekfc</span> Lorem ipsum dolor sit amnet consectetur
+              adipisicing elit.
+            </p>
+          </div>
+
+          <div class="twitter">
+            <img src="./icon/twitter.png" alt="" />
+            <h3>aysegul</h3>
+            <p>
+              <span>@vietdeptrai</span>Chúng tôi đã đặt nhiều các món ăn Việt
+            </p>
+          </div>
+          <div class="facebook insta_boxs">
+            <img src="./icon/instagram.png" alt="" class="insta" />
+            <img
+              src="./img/social_chicken.jpg"
+              alt="Chiken"
+              class="img_box_insta"
+            />
+            <div class="chicken_box">
+              <h6><span>#kfc</span>Lorem ipsum dolor sit amet :)</h6>
+            </div>
+          </div>
+          <div class="facebook">
+            <img src="./icon/facebook.png" alt="face" />
+            <h3>Cao Viet</h3>
+            <p>
+              <span>@_Cziet1</span> Một lời khen bình thường nếu không được sử
+              dụng đúng cách sẽ dễ bị lầm tưởng là đang bợ đỡ, nịnh nọt. Do đó,
+            </p>
+          </div>
+          <div class="facebook">
+            <img src="./icon/facebook.png" alt="face" />
+            <h3>morinaja</h3>
+            <p>
+              <span>@maofuck</span> hể phủ nhận rằng lời khen giúp người nghe
+              cảm thấy hạnh phúc và vui vẻ hơn. Tuy nhiên, không phải vì vậy mà
+              phải vì vậy mà
+            </p>
+          </div>
+          <div class="social_dots">
+            <h2></h2>
+            <h2></h2>
+            <h2></h2>
+          </div>
+        </div>
+        <div class="social_video_box">
+          <h1 class="text-social">VIDEO</h1>
+          <div class="video">
+            <video
+              src="./14-9_VN2-427826728_02.mp4"
+              muted
+              autoplay
+              height="100%"
+            ></video>
+
+            <img src="./img/kfc_video.jpg" alt="kfc" class="screen" />
+            <img src="./icon/play.png" class="play" alt="" />
+            <img src="./icon/pause.png" class="pause" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------- addpress start ----------- -->
+    <address>
+      <div class="add">
+        <div class="kfc_add">
+          <img
+            src="./img/kfc-logo-mobile1.jpg.png"
+            alt="logo"
+            class="add_logo"
+            loading="lazy"
+          />
+          <div class="phone">
+            <img src="./icon/what's app.png" alt="what's app" />444 3 555
+          </div>
+          <div class="phone">
+            <img src="./icon/store.png" alt="what's app" />4(332) 2 324
+          </div>
+        </div>
+        <div class="kfc_icon">
+          <a href="#"><img src="./icon/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="./icon/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="./icon/twitter.png" alt="twitter" /></a>
+          <a href="#"><img src="./icon/youtube.png" alt="youtube" /></a>
+        </div>
+      </div>
+    </address>
+    <footer>
+      <div class="links">
+        <div class="card_foot">
+          <li>About</li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Tracking Tags</a></li>
+          <li><a href="#">Privacy</a></li>
+        </div>
+        <div class="card_foot">
+          <li><a href="#">Franchising</a></li>
+          <li><a href="#">Réponsibility</a></li>
+          <li><a href="#">How kfc makes chicken</a></li>
+        </div>
+        <div class="card_foot">
+          <li>SITE MAP</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store Locator</a></li>
+          <li><a href="#">Tracking Tags</a></li>
+          <li><a href="#">Privacy</a></li>
+        </div>
+        <div class="card_foot">
+          <li>NUTRITION</li>
+          <li><a href="#">Full Nutrition</a></li>
+          <li><a href="#">Food Allergies And Senitivities</a></li>
+          v
+        </div>
+      </div>
+      <br />
+      <div class="foot1">
+        <span>Copyright KFC, All rignts Reserved</span>
+        <span>All Of our products have HALAL Certificate from TSE.</span>
+      </div>
+    </footer>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="content-left">
+          <img src="./img/logoLogin.jpg" alt="Logo" />
+          <form action="" id="loginForm" class="active-form">
+            <div class="Form">
+              <h1 align="center">Đăng nhập</h1>
+              <div class="form-control">
+                <label for="loginUser"
+                  ><i
+                    class="bx bx-user bx-flip-horizontal"
+                    style="color: #352f2f"
+                  ></i
+                ></label>
+                <input
+                  type="text"
+                  id="loginUser"
+                  placeholder="Tài khoản"
+                /><span></span>
+                <small></small>
+              </div>
+              <div class="form-control">
+                <label for="loginPass"
+                  ><i
+                    class="bx bx-lock-alt bx-flip-horizontal"
+                    style="color: #352f2f"
+                  ></i
+                ></label>
+                <input
+                  type="password"
+                  id="loginPass"
+                  placeholder="Mật khẩu"
+                /><span></span>
+                <small></small>
+              </div>
+              <input type="submit" value="Đăng Nhập" />
+
+              <div class="social-media">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-google"></i>
+                <i class="bx bxl-twitter"></i>
+              </div>
+              <div class="signup_link RegisteBtn">
+                Bạn chưa có tài khoản?<a href="#" id="showRegister"
+                  ><strong> Đăng ký</strong></a
+                >
+              </div>
+            </div>
+          </form>
+          <form action="" id="registerForm">
+            <div class="Form">
+              <h1 align="center">Đăng Ký</h1>
+              <div class="form-control">
+                <label for="registerUser"
+                  ><i
+                    class="bx bx-user bx-flip-horizontal"
+                    style="color: #352f2f"
+                  ></i
+                ></label>
+                <input
+                  type="text"
+                  id="registerUser"
+                  placeholder="Tài khoản"
+                /><span></span>
+                <small></small>
+              </div>
+              <div class="form-control">
+                <label for="registerPass"
+                  ><i
+                    class="bx bx-lock-alt bx-flip-horizontal"
+                    style="color: #352f2f"
+                  ></i
+                ></label>
+                <input
+                  type="password"
+                  id="registerPass"
+                  placeholder="Mật khẩu"
+                /><span></span>
+                <small></small>
+              </div>
+              <div class="form-control">
+                <label for="registerMail"
+                  ><i
+                    class="bx bx-envelope bx-flip-horizontal"
+                    style="color: #352f2f"
+                  ></i
+                ></label>
+                <input
+                  type="email"
+                  id="registerMail"
+                  placeholder="Gmail"
+                /><span></span>
+                <small></small>
+              </div>
+
+              <div class="form-control">
+                <label for="registerPhone"
+                  ><i class="bx bx-mobile-vibration bx-flip-horizontal"></i
+                ></label>
+                <input
+                  type="email"
+                  id="registerPhone"
+                  placeholder="Số điện thoại"
+                /><span></span>
+                <small></small>
+              </div>
+              <input type="submit" value="Đăng Ký" />
+
+              <div class="signup_link LoginBtn">
+                Bạn đã có tài khoản?<a href="#" id="showLogin"
+                  ><strong> Đăng nhập</strong></a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="content-right">
+          <img src="./img/chukfc.png" class="animationImg" alt="Image" />
+        </div>
+      </div>
+    </div>
+    <script src="./js/js.js"></script>
+  </body>
+</html>
