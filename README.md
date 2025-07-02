@@ -1,3 +1,3 @@
 # Giao diện index
 
-https://Cz203.github.io/KFC
+https://cz203.github.io/KFC/

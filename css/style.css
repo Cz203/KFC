@@ -667,7 +667,7 @@ header section .left_content_side .dots .header_dots_main {
 .social .social2 .social_box,
 .social_video_box {
   position: relative;
-  width: 50%;
+  width: 45%;
   height: 70%;
   /* border: 1px solid black; */
   margin-top: 100px;
